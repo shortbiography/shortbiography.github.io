@@ -161,7 +161,7 @@ body {
     }
     .post-meta {
       font-size: 14px;
-      color: #b3b3b1;
+      color: #747475;
       line-height: 30px;
       a {
         color: #b3b3b1;
@@ -210,11 +210,12 @@ body {
   max-width: 700px;
   font-size: $rs / 4 * 3;
   text-align: center;
-  color: #999999;
+  color: #0037ff;
   line-height: $rs * 1.1;
   a {
     color: #666666;
     text-decoration: none;
+    font-weight: 600;
     &:hover {
       color: #333333;
     }
@@ -485,7 +486,7 @@ body {
   padding: 20px 0 0;
   a {
     text-decoration: none;
-    color: #bbbbbb;
+    color: #2793e6;
     padding-left: 12px;
     .hidden {
       display: none;
