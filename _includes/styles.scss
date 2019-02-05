@@ -76,14 +76,14 @@ body {
       position: absolute;
       top: 10px;
       right: $rs;
-      font-weight: 200;
+      font-weight: 500;
       font-style: normal;
       font-size: 18px;
       line-height: 30px;
 
       a {
         text-decoration: none;
-        color: #999999;
+        color: #0037ff;
         &:hover {
           color: #333333;
         }
@@ -183,7 +183,7 @@ body {
   margin: 0;
   padding: 16px 0;
   span {
-    color: #b3b3b1;
+    color: #5267a6;
     font-size: $rs / 8 * 5;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -439,7 +439,7 @@ body {
         margin: 0;
         padding-left: 100px;
         &.published {
-          color: #999999;
+          color: #000000;
         }
       }
     }
@@ -461,7 +461,7 @@ body {
         text-align: left;
         font-size: 14px;
         line-height: 1.3;
-        color: #999999;
+        color: #333333;
         a {
           color: #333333;
           text-decoration: none;
