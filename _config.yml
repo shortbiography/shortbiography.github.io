@@ -28,7 +28,7 @@ analytics_id: "UA-XXXX-X"
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
