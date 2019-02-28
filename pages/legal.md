@@ -1,15 +1,15 @@
 ---
 id: 15
-title: নীতি
+title: গোপনীয়তা
 date: 2019-02-27T20:47:55+00:00
 author: Short Bio
 layout: page
-image: /privacy/legal.jpg
+image: /assets/images/legal.jpg
 description: Short Bio legal page - Disclaimer, Privacy Policy, Terms of Service Agreement, DMCA Copyright Policy.
 permalink: /legal/
 ---
 
-## Privacy Policy
+## গোপনীয়তা এবং শর্তাদি
 
 ## Who we are
 Our website address is: https://short-biography.com.
