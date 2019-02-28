@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://shortbiography.netlify.com/* http://bn.short-biography.com/:splat 301!
