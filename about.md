@@ -4,10 +4,10 @@ title: বৃত্তান্ত
 permalink: /বৃত্তান্ত/
 ---
 
-<img src="https://short-biography.com/wp-content/uploads/about/SB-Logo.png"/>
+<amp-img width="600" height="300" layout="responsive" src="https://short-biography.com/wp-content/uploads/about/SB-Logo.png"/>
 আপনার প্রিয় সেলিব্রিটিদের সম্পর্কে আরো জানতে চান? তারা কোথায় আছে এবং কার সাথে ডেটিং করছে বা কাকে বিয়ে করেছে? আপনি তাহলে সঠিক স্থানে এসেছেন।
 
-<img src="https://media.short-biography.com/Celebrities.jpg"/>
+<amp-img width="600" height="300" layout="responsive" src="https://media.short-biography.com/Celebrities.jpg"></amp-img>
 
 
 ## সাইট সম্পর্কে
@@ -18,12 +18,8 @@ SB or SBio or Short Bio or [Short Biography (শর্ট বায়োগ্র�
 
 ## আমাদের সাথে সংযুক্ত হন
 If you did not find what you are looking for and have info or tips for us then Contact us or Connect Social: 
-আপনি যদি যা খুঁজছেন তা খুঁজে না পান অথবা আমাদের কাছে কোনো তথ্য বা পরামর্শ প্রদান করতে চান, তবে আমাদের সাথে [যোগাযোগ করুন](/contact)অথবা সামাজিক সাইটে যোগাযোগ করুনঃ Facebook | Google+ | Twitter | Instagram
+আপনি যদি যা খুঁজছেন তা খুঁজে না পান অথবা আমাদের কাছে কোনো তথ্য বা পরামর্শ প্রদান করতে চান, তবে আমাদের সাথে [যোগাযোগ করুন](/contact)অথবা সামাজিক সাইটে যোগাযোগ করুনঃ [Facebook][fb-shortbio] | Google+ | [Twitter][twt-shortbio] | [Instagram][ig-shortbio]
 
-[Facebook][fb-shortbio]
-[Twitter][twt-shortbio]
-[Instagram][ig-shortbio]
-
-[fb-shortbio]: https://facebook.com/shortbiography
-[twt-shortbio]: https://facebook.com/shortbiography
-[ig-shortbio]: https://instagram.com/shortbiography
+[fb-shortbio]: https://www.facebook.com/shortbiography
+[twt-shortbio]: https://twitter.com/shortbiography
+[ig-shortbio]: https://www.instagram.com/shortbiography
