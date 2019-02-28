@@ -1,7 +1,7 @@
 ---
-id: 5
-title: Legal
-date: 2015-06-01T20:47:55+00:00
+id: 15
+title: নীতি
+date: 2019-02-27T20:47:55+00:00
 author: Short Bio
 layout: page
 image: /privacy/legal.jpg
