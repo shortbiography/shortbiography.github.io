@@ -184,7 +184,7 @@ body {
 .index-headline {
   border-top: 1px solid #dededc;
   margin: 0;
-  padding: 16px 0;
+  padding: 16px 0px 0px 0px
   span {
     color: #5267a6;
     font-size: $rs / 8 * 5;
@@ -408,7 +408,7 @@ body {
         margin-bottom: 18px;
       }
       .index-headline {
-        padding-bottom: 32px;
+        //padding-bottom: 32px;
       }
       a {
         color: black;
@@ -489,7 +489,7 @@ body {
   padding: 20px 0 0;
   a {
     text-decoration: none;
-    color: #2793e6;
+    //color: #2793e6;
     padding-left: 12px;
     .hidden {
       display: none;
