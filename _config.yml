@@ -46,6 +46,9 @@ sass:
 
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  startings: [html, head, body]
+  blanklines: true
 
 kramdown:
   parse_block_html: true
