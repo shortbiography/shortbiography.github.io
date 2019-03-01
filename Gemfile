@@ -8,6 +8,7 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-seo-tag"
+  gem "jekyll-minifier"
 end
 
 # Hello! This is where you manage which Jekyll version is used to run.
