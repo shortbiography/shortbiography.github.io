@@ -17,7 +17,7 @@ title: সংক্ষিপ্ত জীবনী - শর্ট বায়ো�
 email: look@short-biography.com
 description: বিখ্যাত ব্যাক্তিদের সংক্ষিপ্ত জীবনী 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shortbiography.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bn.short-biography.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shortbiography
 github_username:  shortbiography
 author_image: "/assets/images/logo.png"

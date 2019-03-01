@@ -132,7 +132,7 @@ class SWHelper
     def self.insert_sw_register_into_body(page)
         page.output = page.output.sub('</body>',
         <<-SCRIPT
-<amp-install-serviceworker src="https://shortbiography.netlify.com/sw-register.js" layout="nodisplay"></body>
+<amp-install-serviceworker src="https://bn.short-biography.com/sw-register.js" layout="nodisplay"></body>
         SCRIPT
         )
     end
