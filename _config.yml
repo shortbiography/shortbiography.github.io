@@ -22,7 +22,7 @@ twitter_username: shortbiography
 github_username:  shortbiography
 author_image: "/assets/images/logo.png"
 logo: "/assets/images/logo.png"
-paginate: 5
+paginate: 10
 
 # Google Analytics
 analytics_id: "UA-37784176-2"
