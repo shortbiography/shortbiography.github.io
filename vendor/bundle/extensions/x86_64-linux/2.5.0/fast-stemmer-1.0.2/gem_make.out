@@ -1,0 +1,16 @@
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/fast-stemmer-1.0.2/ext
+/usr/bin/ruby2.5 -r ./siteconf20190313-32580-1xr93vv.rb extconf.rb
+creating Makefile
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" clean
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR="
+compiling porter.c
+compiling porter_wrap.c
+linking shared-object stemmer.so
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 stemmer.so ./.gem.20190313-32580-1ye1ebn

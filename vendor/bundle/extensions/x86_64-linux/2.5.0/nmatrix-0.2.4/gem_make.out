@@ -1,0 +1,133 @@
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-0.2.4/ext/nmatrix
+/usr/bin/ruby2.5 -r ./siteconf20190313-32580-1s1oy2d.rb extconf.rb
+using C++ standard... c++11
+g++ reports version... 7.3.0-27ubuntu1~18.04)
+checking for rb_array_const_ptr() in ruby.h... yes
+creating nmatrix_config.h
+creating Makefile
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-0.2.4/ext/nmatrix
+make "DESTDIR=" clean
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-0.2.4/ext/nmatrix
+make "DESTDIR="
+compiling data/data.cpp
+compiling math.cpp
+In file included from math/getrf.h:63:0,
+                 from math.cpp:146:
+./math/math.h: In function ‘I nm::math::smmp_sort::median(I, I, I)’:
+./math/math.h:341:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (a < c) return c; // a c b
+       ^~
+./math/math.h:342:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return a; // c a b
+                  ^~~~~~
+./math/math.h:346:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (b < c) return c; // b c a
+       ^~
+./math/math.h:347:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return b; // c b a
+                  ^~~~~~
+compiling nmatrix.cpp
+In file included from nmatrix.cpp:45:0:
+math/math.h: In function ‘I nm::math::smmp_sort::median(I, I, I)’:
+math/math.h:341:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (a < c) return c; // a c b
+       ^~
+math/math.h:342:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return a; // c a b
+                  ^~~~~~
+math/math.h:346:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (b < c) return c; // b c a
+       ^~
+math/math.h:347:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return b; // c b a
+                  ^~~~~~
+In file included from nmatrix.cpp:283:0:
+ruby_nmatrix.c: In function ‘VALUE nm_init_new_version(int, VALUE*, VALUE)’:
+ruby_nmatrix.c:1283:25: warning: ‘init’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     nm_unregister_values(reinterpret_cast<VALUE*>(init), 1);
+     ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling ruby_constants.cpp
+compiling storage/common.cpp
+compiling storage/dense/dense.cpp
+In file included from storage/dense/dense.cpp:41:0:
+storage/dense/../../math/math.h: In function ‘I nm::math::smmp_sort::median(I, I, I)’:
+storage/dense/../../math/math.h:341:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (a < c) return c; // a c b
+       ^~
+storage/dense/../../math/math.h:342:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return a; // c a b
+                  ^~~~~~
+storage/dense/../../math/math.h:346:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (b < c) return c; // b c a
+       ^~
+storage/dense/../../math/math.h:347:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return b; // c b a
+                  ^~~~~~
+compiling storage/list/list.cpp
+In file included from storage/list/list.cpp:50:0:
+storage/list/../../math/math.h: In function ‘I nm::math::smmp_sort::median(I, I, I)’:
+storage/list/../../math/math.h:341:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (a < c) return c; // a c b
+       ^~
+storage/list/../../math/math.h:342:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return a; // c a b
+                  ^~~~~~
+storage/list/../../math/math.h:346:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (b < c) return c; // b c a
+       ^~
+storage/list/../../math/math.h:347:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return b; // c b a
+                  ^~~~~~
+storage/list/list.cpp: In function ‘void* nm_list_storage_get(const STORAGE*, SLICE*)’:
+storage/list/list.cpp:1132:15: warning: ‘n’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return (n ? n->val : s->default_val);
+            ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+storage/list/list.cpp: In function ‘void* nm_list_storage_ref(const STORAGE*, SLICE*)’:
+storage/list/list.cpp:1169:15: warning: ‘n’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return (n ? n->val : s->default_val);
+            ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling storage/storage.cpp
+compiling storage/yale/yale.cpp
+In file included from storage/yale/yale.cpp:57:0:
+storage/yale/../../math/math.h: In function ‘I nm::math::smmp_sort::median(I, I, I)’:
+storage/yale/../../math/math.h:341:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (a < c) return c; // a c b
+       ^~
+storage/yale/../../math/math.h:342:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return a; // c a b
+                  ^~~~~~
+storage/yale/../../math/math.h:346:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (b < c) return c; // b c a
+       ^~
+storage/yale/../../math/math.h:347:18: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                  return b; // c b a
+                  ^~~~~~
+storage/yale/yale.cpp: At global scope:
+storage/yale/yale.cpp:1219:15: warning: ‘size_t yale_count_slice_copy_ndnz(const YALE_STORAGE*, size_t*, size_t*)’ defined but not used [-Wunused-function]
+ static size_t yale_count_slice_copy_ndnz(const YALE_STORAGE* s, size_t* offset, size_t* shape) {
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+storage/yale/yale.cpp:929:14: warning: ‘VALUE nm::yale_storage::nm_yale_enumerator_length(VALUE)’ defined but not used [-Wunused-function]
+ static VALUE nm_yale_enumerator_length(VALUE nmatrix) {
+              ^~~~~~~~~~~~~~~~~~~~~~~~~
+storage/yale/yale.cpp:919:14: warning: ‘VALUE nm::yale_storage::nm_yale_stored_diagonal_enumerator_length(VALUE)’ defined but not used [-Wunused-function]
+ static VALUE nm_yale_stored_diagonal_enumerator_length(VALUE nmatrix) {
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+storage/yale/yale.cpp:907:14: warning: ‘VALUE nm::yale_storage::nm_yale_stored_nondiagonal_enumerator_length(VALUE)’ defined but not used [-Wunused-function]
+ static VALUE nm_yale_stored_nondiagonal_enumerator_length(VALUE nmatrix) {
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+storage/yale/yale.cpp:893:14: warning: ‘VALUE nm::yale_storage::nm_yale_stored_enumerator_length(VALUE)’ defined but not used [-Wunused-function]
+ static VALUE nm_yale_stored_enumerator_length(VALUE nmatrix) {
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+storage/yale/yale.cpp:733:29: warning: ‘std::array<long unsigned int, 2> nm::yale_storage::get_offsets(YALE_STORAGE*)’ defined but not used [-Wunused-function]
+ static std::array<size_t,2> get_offsets(YALE_STORAGE* x) {
+                             ^~~~~~~~~~~
+compiling util/io.cpp
+compiling util/sl_list.cpp
+linking shared-object nmatrix.so
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-0.2.4/ext/nmatrix
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nmatrix.so ./.gem.20190313-32580-sf0h9c
+installing nmatrix libraries

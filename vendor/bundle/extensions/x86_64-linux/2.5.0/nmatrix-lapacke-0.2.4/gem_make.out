@@ -1,0 +1,24 @@
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-lapacke-0.2.4/ext/nmatrix_lapacke
+/usr/bin/ruby2.5 -r ./siteconf20190313-6118-1z115y2.rb extconf.rb
+using C++ standard... c++11
+g++ reports version... 7.3.0-27ubuntu1~18.04)
+checking for rb_array_const_ptr() in ruby.h... yes
+checking for -llapack... no
+creating nmatrix_lapacke_config.h
+creating Makefile
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-lapacke-0.2.4/ext/nmatrix_lapacke
+make "DESTDIR=" clean
+
+current directory: /home/sam/Android/Github/sb/vendor/bundle/gems/nmatrix-lapacke-0.2.4/ext/nmatrix_lapacke
+make "DESTDIR="
+compiling lapacke.cpp
+compiling math_lapacke.cpp
+compiling nmatrix_lapacke.cpp
+linking shared-object nmatrix_lapacke.so
+/usr/bin/ld: cannot find -llapack
+collect2: error: ld returned 1 exit status
+Makefile:258: recipe for target 'nmatrix_lapacke.so' failed
+make: *** [nmatrix_lapacke.so] Error 1
+
+make failed, exit code 2
