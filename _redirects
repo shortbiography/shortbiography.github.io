@@ -1,2 +1,14 @@
 # Redirect default Netlify subdomain to primary domain
-http://shortbiography.netlify.com/* http://bn.short-biography.com/:splat 301!
+https://egypt-sb.netlify.app//* https://short-biography.com/:splat 301!
+
+http://egypt.short-biography.com//* https://short-biography.com/:splat 301!
+
+http://go.short-biography.com//* https://short-biography.com/:splat 301!
+
+/actor/mahmoud-abdel-moghny.htm https://short-biography.com/mahmoud-abdel-moghny.htm
+
+/actress/yosra-el-lozy.htm https://short-biography.com//actress/yosra-el-lozy.htm
+
+/joya-ahsan-wiki https://short-biography.com/joya-ahsan.htm
+
+/joya-ahsan-imdb https://short-biography.com/joya-ahsan.htm

@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: সংক্ষিপ্ত জীবনী - শর্ট বায়োগ্রাফি
+title: Short Bio
 email: look@short-biography.com
-description: বিখ্যাত ব্যাক্তিদের সংক্ষিপ্ত জীবনী 
+description: Biography of famous people
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bn.short-biography.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://short-biography.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shortbiography
 github_username:  shortbiography
 author_image: "/assets/images/logo.png"
@@ -26,7 +26,7 @@ paginate: 10
 
 name: 'Short Bio'
 bio: >
-  শর্ট বায়োগ্রাফি একটি ওয়েব ভিত্তিক প্রকল্প। আমরা সেলিব্রিটিদের উপর সংক্ষিপ্ত কিন্তু তথ্যপূর্ণ জীবনী লিপিবদ্ধ করছি।
+  Life Story of Famous People
 
 # Google Analytics
 analytics_id: "UA-37784176-2"
@@ -56,6 +56,9 @@ compress_html:
 
 kramdown:
   parse_block_html: true
+
+include:
+  - _redirects
 
 pwa:
   sw_src_filepath: service-worker.js # Optional
